@@ -1,0 +1,52 @@
+.formationP {
+	height: 632px;
+	margin-top: 30px;
+}
+
+.formationPTitle {
+	height: 72px;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 72px;
+	letter-spacing: -1.5%;
+	color: #152237;
+	margin-left: 97px;
+	margin-bottom: 34px;
+}
+
+.formationPRow {
+	margin-left: 5.95%;
+	margin-right: 6.01%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5.36%;
+}
+
+.formationPCard {
+	flex: 1 1 calc(25% - 5.36%);
+	min-width: 250px;
+}
+
+.formationPCard img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.prixP {
+	height: 20px;
+	border-radius: 93px;
+	background-color: #152237;
+	color: white;
+	width: fit-content;
+	padding: 6px 38px 5.58px 11px;
+}
+
+.priceNew {
+	height: 20px;
+}
+
+.formationPCard svg {
+	width: 20.13px;
+	height: 19.2px;
+}
