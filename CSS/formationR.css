@@ -1,0 +1,30 @@
+.formationR {
+	height: 632px;
+	background-color: #152237;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 3vh 0 5vh 0;
+}
+
+.formationR .formationTitle {
+	color: white;
+}
+
+.formationR .formationCard h3 {
+	color: white;
+}
+
+.formationR .formationCard p {
+	color: white;
+}
+
+.formationR .formationCard .prix {
+	background-color: white;
+	color: #152237;
+}
+
+.formationR .formationBtnStyle {
+	background-color: white;
+	color: #152237;
+}

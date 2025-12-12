@@ -1,0 +1,24 @@
+.createFormation {
+	background-color: #44dd8a;
+	top: 61.05vh;
+}
+
+#li7 {
+	list-style-image: url(../ressources/coin.svg);
+}
+
+#li8 {
+	list-style-image: url(../ressources/heart.svg);
+}
+
+#li9 {
+	list-style-image: url(../ressources/pen.svg);
+}
+
+#li10 {
+	list-style-image: url(../ressources/cog.svg);
+}
+
+#li11 {
+	list-style-image: url(../ressources/profil.svg);
+}

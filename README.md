@@ -1,1 +1,1 @@
-# site-statique
+https://edenhash.github.io/site-statique/

@@ -1,0 +1,45 @@
+.aPropos {
+	height: 70.48vh;
+	background-color: #f5f5f5;
+}
+
+.aProposRow {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.aProposColumn {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	height: 35.43vh;
+}
+
+.aProposColumn h2 {
+	font-weight: 900;
+	font-style: Black;
+	font-size: 40px;
+	line-height: 36px;
+	letter-spacing: -1.5%;
+	text-transform: uppercase;
+	margin: 17.52vh 3.63vw 3.9vh 6.13vw;
+}
+
+.aPropos p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: -1.5%;
+	width: 40.83vw;
+	margin: 0 3.63vw 17.52vh 6.13vw;
+}
+
+.aProposRight {
+	width: 50%;
+	height: 100%;
+	background-color: #152237;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

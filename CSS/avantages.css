@@ -1,0 +1,63 @@
+.avantages {
+	background-color: #f5f5f5;
+	top: 61.05vh;
+}
+
+.listRow {
+	display: flex;
+	padding: 7.52vh 6.13vw 8.86vh 5.83vw;
+	gap: 4.23vw;
+}
+
+.listColumn {
+	display: flex;
+	flex-direction: column;
+}
+
+.listColumn h2 {
+	font-weight: 900;
+	font-style: Black;
+	font-size: 40px;
+	line-height: 36px;
+	letter-spacing: -1.5%;
+	text-transform: uppercase;
+	color: #152237;
+}
+
+.listColumn ul {
+	margin-top: 4.1vh;
+	margin-left: 2vw;
+}
+
+.listColumn li {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 5vh;
+	letter-spacing: -1.5%;
+	color: #000000cc;
+	padding-left: 2vw;
+}
+
+#li1 {
+	list-style-image: url(../ressources/fleche.svg);
+}
+
+#li2 {
+	list-style-image: url(../ressources/stylo.svg);
+}
+
+#li3 {
+	list-style-image: url(../ressources/flechedown.svg);
+}
+
+#li4 {
+	list-style-image: url(../ressources/star.svg);
+}
+
+#li5 {
+	list-style-image: url(../ressources/clock.svg);
+}
+
+#li6 {
+	list-style-image: url(../ressources/text.svg);
+}

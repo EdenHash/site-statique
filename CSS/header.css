@@ -24,8 +24,8 @@ header {
 
 .formation {
 	width: 6.548vw;
-	height: 18px; /*1.714vh */
-	margin-left: 10vw; /* 168px */
+	height: 18px;
+	margin-left: 10vw;
 	font-weight: 500;
 	font-size: 15px;
 	line-height: 100%;
@@ -38,7 +38,7 @@ header {
 }
 
 .recherche {
-	width: 28.39vw; /* 477px */
+	width: 28.39vw;
 	height: 40px;
 	margin-left: 8.51vw;
 	border: 1px solid white;
@@ -70,10 +70,10 @@ header {
 
 .connexion,
 .inscription {
-	height: 40px; /*3.81vh*/
-	width: auto;
-	border-radius: 6px; /* 6px */
-	padding: 11px 25px;
+	height: 40px;
+	width: 7.74vw;
+	border-radius: 6px;
+	padding: 1.05vh 1.75vw;
 	text-decoration: none;
 	color: #152237;
 	font-weight: 500;
@@ -83,7 +83,7 @@ header {
 
 .connexion {
 	background-color: white;
-	margin-right: 1.131vw; /* 19px */
+	margin-right: 1.131vw;
 }
 
 .inscription {
