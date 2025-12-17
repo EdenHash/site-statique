@@ -76,4 +76,53 @@
 	letter-spacing: -1.5%;
 	text-align: center;
 	vertical-align: middle;
+	border-radius: 6px;
+}
+
+@media screen and (max-width: 796px) {
+	.contact {
+		padding: 4vh 20px;
+		height: auto;
+	}
+
+	.contact h2 {
+		font-weight: 900;
+		font-style: Black;
+		font-size: 30px;
+		line-height: 36px;
+		letter-spacing: -1.5%;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 3vh;
+	}
+
+	.contact hr {
+		display: none;
+	}
+
+	.contactRow {
+		flex-direction: column;
+	}
+
+	.contactRow input {
+		width: 100%;
+		height: 45px;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 24px;
+		letter-spacing: -1.5%;
+		padding-left: 20px;
+		margin-bottom: 20px;
+	}
+
+	#text {
+		padding-left: 20px;
+	}
+
+	#submit {
+		width: 100%;
+		height: 45px;
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
 }

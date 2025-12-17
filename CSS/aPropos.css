@@ -1,19 +1,18 @@
 .aPropos {
-	height: 70.48vh;
+	min-height: 70.48vh;
 	background-color: #f5f5f5;
 }
 
 .aProposRow {
 	display: flex;
 	width: 100%;
-	height: 100%;
+	align-items: stretch;
 }
 
 .aProposColumn {
 	display: flex;
 	flex-direction: column;
 	width: 50%;
-	height: 35.43vh;
 }
 
 .aProposColumn h2 {
@@ -23,7 +22,7 @@
 	line-height: 36px;
 	letter-spacing: -1.5%;
 	text-transform: uppercase;
-	margin: 17.52vh 3.63vw 3.9vh 6.13vw;
+	margin: 80px 3.63vw 24px 6.13vw;
 }
 
 .aPropos p {
@@ -37,9 +36,54 @@
 
 .aProposRight {
 	width: 50%;
-	height: 100%;
+	min-height: 70.48vh;
 	background-color: #152237;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+@media screen and (max-width: 796px) {
+	.aPropos {
+		height: auto;
+	}
+
+	.aProposRow {
+		flex-direction: column;
+	}
+
+	.aProposColumn,
+	.aProposRight {
+		width: 100%;
+		height: auto;
+	}
+
+	.aProposColumn h2 {
+		font-weight: 900;
+		font-style: Black;
+		font-size: 30px;
+		line-height: 36px;
+		letter-spacing: -1.5%;
+		text-align: center;
+		text-transform: uppercase;
+
+		margin: 32px 20px 16px 20px;
+	}
+
+	.aPropos p {
+		width: 90%;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 28px;
+		letter-spacing: -1.5%;
+		margin: 0 10px 32px 20px;
+	}
+
+	.aProposRight {
+		min-height: 370px;
+	}
+
+	.aProposRight img {
+		width: 214px;
+	}
 }

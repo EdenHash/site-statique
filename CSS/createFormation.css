@@ -1,6 +1,5 @@
 .createFormation {
 	background-color: #44dd8a;
-	top: 61.05vh;
 }
 
 #li7 {
@@ -21,4 +20,19 @@
 
 #li11 {
 	list-style-image: url(../ressources/profil.svg);
+}
+
+@media screen and (max-width: 796px) {
+	#klivioDesktop {
+		display: none;
+	}
+
+	#desktopImageDisplay {
+		display: none;
+	}
+
+	#phoneImageDisplay {
+		display: flex;
+		margin-top: 3vh;
+	}
 }

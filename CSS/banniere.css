@@ -10,12 +10,15 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
 .banniere h1 {
 	font-weight: 800;
 	font-style: bold;
-	font-size: clamp(24px, 4vw, 48px);
+	font-size: 4vw;
 	line-height: 100%;
 	letter-spacing: -1.5%;
 	text-align: center;
@@ -27,13 +30,13 @@
 .banniere h2 {
 	font-weight: 500;
 	font-style: Medium;
-	font-size: clamp(14px, 2vw, 20px);
+	font-size: 2vw;
 	line-height: 100%;
 	letter-spacing: -1.5%;
 	text-align: center;
 	vertical-align: middle;
 	text-transform: uppercase;
-	margin-top: 8px;
+	margin-top: 4vh;
 	margin-bottom: 22px;
 	height: 24px;
 }
@@ -51,4 +54,48 @@
 	padding: 11px 14px;
 	border: 1px solid none;
 	border-radius: 6px;
+}
+
+@media screen and (max-width: 796px) {
+	.banniere {
+		height: 364px;
+		background-image: linear-gradient(
+				94.01deg,
+				rgba(68, 221, 138, 0.8) 3.11%,
+				rgba(21, 183, 226, 0.8) 98.45%
+			),
+			url("../ressources/backgroundPhone.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.banniere h1 {
+		width: 360px;
+		height: auto;
+		font-weight: 800;
+		font-style: bold;
+		font-size: 32px;
+		line-height: 100%;
+		letter-spacing: -1.5%;
+		text-align: center;
+		vertical-align: middle;
+		text-transform: uppercase;
+	}
+
+	.banniere h2 {
+		font-weight: 500;
+		font-style: Medium;
+		font-size: 20px;
+		line-height: 100%;
+		letter-spacing: -1.5%;
+		text-align: center;
+		vertical-align: middle;
+		text-transform: uppercase;
+		width: 360px;
+		margin-bottom: 0;
+	}
+
+	.banniere a {
+		margin-top: 8vh;
+	}
 }
