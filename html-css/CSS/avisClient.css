@@ -1,0 +1,122 @@
+.avisClient {
+	height: 597px;
+}
+
+.avisClient h2 {
+	font-weight: 900;
+	font-style: Black;
+	font-size: 40px;
+	line-height: 36px;
+	letter-spacing: -1.5%;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 58px;
+}
+
+.avisRow {
+	display: flex;
+	margin: 6.29vh 9.05vw 12.48vh 8.93vw;
+	gap: 24px;
+}
+
+.avis {
+	width: 41.01vw;
+}
+
+.avis img {
+	clip-path: circle(50%);
+}
+
+.avis h3 {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: -1.5%;
+	color: #152237;
+}
+
+.avis svg {
+	width: 20.13px;
+	height: 19.2px;
+	margin-top: 7px;
+	margin-bottom: 14px;
+}
+
+.avisStar {
+	display: flex;
+	flex-direction: row;
+}
+
+.avis p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: -1.5%;
+	width: 40.83vw;
+	height: 8.57svh;
+	text-align: left;
+	color: #000000cc;
+}
+
+@media screen and (max-width: 796px) {
+	.avisClient {
+		height: auto;
+		padding: 0 2.68vw 5vh 2.68vw;
+	}
+
+	.avisClient h2 {
+		font-weight: 900;
+		font-style: Black;
+		font-size: 30px;
+		line-height: 36px;
+		letter-spacing: -1.5%;
+		text-align: center;
+		text-transform: uppercase;
+		margin-top: 40px;
+	}
+
+	.avisClient .avisStar {
+		justify-content: center;
+	}
+
+	.avisRow {
+		flex-direction: column;
+		margin: 6vh 0 0 0;
+		gap: 5vh;
+		align-items: center;
+	}
+
+	.avis {
+		width: 100%;
+		text-align: center;
+	}
+
+	.avis img {
+		width: 139px;
+		height: 139px;
+		margin-bottom: 16px;
+	}
+
+	.avis h3 {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 36px;
+		letter-spacing: -1.5%;
+		text-align: center;
+	}
+
+	.avis svg {
+		width: 20px;
+		height: 19px;
+	}
+
+	.avis p {
+		width: 100%;
+		height: auto;
+		text-align: center;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 30px;
+		letter-spacing: -1.5%;
+	}
+}

@@ -1,0 +1,188 @@
+footer {
+	height: 54.33vh;
+	background-color: #152237;
+	color: white;
+}
+
+#hr1 {
+	height: 1.71vh;
+	background: linear-gradient(90.01deg, #44dd8a 2.38%, #18a0fb 100%);
+	border: none;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.footerRow {
+	display: flex;
+	padding: 10.11vh 6.07vw 0 5.71vw;
+}
+
+.footerRow img {
+	margin-bottom: 10.67vh;
+}
+
+.mentionLegale {
+	display: flex;
+	flex-direction: column;
+	margin-left: 17.14vw;
+	white-space: nowrap;
+	margin-top: 1vh;
+	margin-bottom: 4.11vh;
+}
+
+.mentionLegale h3 {
+	margin-bottom: 1.52vh;
+}
+
+.mentionLegale li {
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: -1.5%;
+}
+
+.coord {
+	display: flex;
+	flex-direction: column;
+	margin-left: 3.87vw;
+	white-space: nowrap;
+	margin-top: 1.1vh;
+}
+
+.coord h3 {
+	margin-bottom: 1.52vh;
+}
+
+.coord ul {
+	margin-left: 1.8vw;
+}
+
+.coord li {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: -1.5%;
+	padding-left: 1.13vw;
+}
+
+#footerLi1 {
+	list-style-image: url(../ressources/place.svg);
+}
+
+#footerLi2 {
+	list-style-image: url(../ressources/phone.svg);
+}
+
+#footerLi3 {
+	list-style-image: url(../ressources/letter.svg);
+}
+
+.footerBtn {
+	display: flex;
+	flex-direction: column;
+	gap: 1.14vh;
+	margin-left: 27vw;
+	margin-top: 1.4vh;
+}
+
+#hr2 {
+	background: #44dd8a;
+	border: none;
+	height: 2px;
+	width: 88.21vw;
+	margin: auto;
+}
+
+.footerRow2 {
+	display: flex;
+	justify-content: space-between;
+	padding: 2.38vh 6.07vw 0 5.71vw;
+}
+
+.footerRow2 p {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: -1.5%;
+	text-align: right;
+}
+
+.reseaux {
+	display: flex;
+	flex-direction: row;
+	gap: 1vw;
+	align-items: center;
+}
+
+@media screen and (max-width: 796px) {
+	footer {
+		height: auto;
+	}
+
+	.footerRow {
+		flex-direction: column;
+		align-items: center;
+		padding: 40px 20px 20px;
+		gap: 32px;
+	}
+
+	.footerRow img {
+		width: 200px;
+		margin-bottom: 0;
+	}
+
+	.mentionLegale,
+	.coord {
+		margin: 0;
+		white-space: normal;
+		text-align: center;
+	}
+
+	.mentionLegale,
+	.coord h3 {
+		font-weight: 700;
+		font-size: 15px;
+		line-height: 24px;
+		letter-spacing: -1.5%;
+		text-align: center;
+	}
+
+	.coord li {
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 24px;
+		letter-spacing: -1.5%;
+		text-align: start;
+	}
+
+	.footerBtn {
+		display: none;
+	}
+
+	.coord ul {
+		margin-left: 0;
+		padding-left: 20px;
+	}
+
+	#hr2 {
+		display: none;
+	}
+
+	.footerRow2 {
+		flex-direction: column;
+		gap: 16px;
+		padding: 20px;
+	}
+
+	.footerRow2 p {
+		display: none;
+	}
+
+	.reseaux {
+		display: none;
+	}
+}
